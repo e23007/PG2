@@ -5,7 +5,7 @@ result={'w':0,'l':0,'t':0}
 hand={'r':'ROCK','p':'PAPER','s':'SCISSORS'}
 rps=['r','p','s']
 while True:
-    print(str(result['w'])+'Wins'+str(result['l'])+'Losses'+str(result['t'])+'Ties')
+    print(f"{result['w']}Wins {result['l']}Losses {result['t']}Ties")
     while True:
         print('Enter your move: (r)ock (p)aper (s)cissors')
         player_move=input()
