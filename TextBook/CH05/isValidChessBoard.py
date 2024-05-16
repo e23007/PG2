@@ -14,8 +14,8 @@ def chess_check(chess,position_check):
         if piece[1:] not in piece_check:
             print(piece)
             return False
-        elif piece[0:1]== ('b' or 'w'):
-            pass
+        elif piece[0:1]!='w' and piece[0:1]!='b':
+            return False
     return True
 
 
