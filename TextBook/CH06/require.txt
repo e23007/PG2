@@ -1,0 +1,14 @@
+仮想環境にコピーしたい文字をローカルのクリップボードに保存するため
+Vagrantfileに　config.ssh.forward_x11=true を追加
+仮想環境でxselをインストール
+sudo apt install xsel
+下のコマンドでコピーできたら成功
+pwd | xsel -bi 
+pyperclipモジュールを追加
+pip install --user pyperclip
+pipでエラーがでたら
+sudo apt install python3-pip
+
+仮想環境のターミナルで(vsのターミナルでなく)
+python3 ~/PG2/TextBook/CH06/mclip.py agree　と打って
+agreeのテキストをクリップボードにコピーしました。とでれば成功
