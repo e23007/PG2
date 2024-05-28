@@ -62,7 +62,7 @@ sandwich_maker(PRICES)
 
 
 # def sandwich_maker():
-#     bread = pyip.inputMenu(['小麦', '白パン', '全粒粉', 'ライ麦'], prompt='パンを選んでください:\n', )
+#     bread = pyip.inputMenu(['小麦', '白パン', 'サワー種'], prompt='パンを選んでください:\n', )
 #     protein = pyip.inputMenu(['チキン', 'ターキー', 'ハム', '豆腐'], prompt='タンパク質の種類を選んでください:\n', )
 #     cheese = pyip.inputYesNo(prompt='チーズを追加しますか？\n', yesVal='はい', noVal='いいえ',)
 #     if cheese == 'はい':
