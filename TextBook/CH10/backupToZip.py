@@ -28,5 +28,5 @@ def backup_to_zip(folder):
             backup_zip.write(os.path.join(foldername,filename))
     backup_zip.close()
     print('Done')
-#OSによって異なる
+#OSによって異なる Windowsは backup_to_zip('C:\\delicious')　
 backup_to_zip(r'~/PG2/TextBook/CH10/delicious')
