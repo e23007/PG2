@@ -1,0 +1,16 @@
+print('足して合わせる第1の数を入力して下さい:')
+first=int(input())
+print('足して合わせる第2の数を入力して下さい:')
+second=int(input())
+print('足して合わせる第3の数を入力して下さい:')
+third=int(input())
+print('合計は'+str(first+second+third))
+
+
+# print('足して合わせる第1の数を入力して下さい:')
+# first=input()
+# print('足して合わせる第2の数を入力して下さい:')
+# second=input()
+# print('足して合わせる第3の数を入力して下さい:')
+# third=input()
+# print('合計は'+first+second+third)
