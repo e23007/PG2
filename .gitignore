@@ -1,6 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,visualstudiocode,python
-
+credentials-sheets.json
 ### Linux ###
 *~
 
