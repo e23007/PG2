@@ -1,3 +1,4 @@
+#python3 findMistake.py
 #https://docs.google.com/spreadsheets/d/1jDZEdvSIh4TmZxccyy0ZXrH-ELlrwq8_YYiZrEOB4jg/edit?gid=289119951#gid=289119951
 
 import ezsheets
