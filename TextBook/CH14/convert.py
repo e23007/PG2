@@ -1,3 +1,5 @@
+# python3 convert.py produceSales.xlsx
+
 import sys
 import ezsheets
 
